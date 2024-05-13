@@ -7,17 +7,17 @@
     <img height="64px" src="https://raw.githubusercontent.com/Automattic/mongoose/master/docs/images/mongoose.svg"/>
   </a>
   <h3 align="center"><b>Mongoose Adapter</b> - NextAuth.js / Auth.js</a></h3>
-  <p align="center" style="align: center;">
-    <a href="https://npm.im/@brendon1555/authjs-mongoose-adapter">
+  <p align="center">
+    <a href="https://npm.im/@brendon1555/authjs-mongoose-adapter" target="_blank">
       <img src="https://img.shields.io/badge/TypeScript-blue?style=flat-square" alt="TypeScript" />
     </a>
-    <a href="https://npm.im/@brendon1555/authjs-mongoose-adapter">
+    <a href="https://npm.im/@brendon1555/authjs-mongoose-adapter" target="_blank">
       <img alt="npm" src="https://img.shields.io/npm/v/@brendon1555/authjs-mongoose-adapter?color=green&label=@brendon1555/authjs-mongoose-adapter&style=flat-square">
     </a>
-    <a href="https://www.npmtrends.com/@brendon1555/authjs-mongoose-adapter">
+    <a href="https://www.npmtrends.com/@brendon1555/authjs-mongoose-adapter" target="_blank">
       <img src="https://img.shields.io/npm/dm/@brendon1555/authjs-mongoose-adapter?label=%20downloads&style=flat-square" alt="Downloads" />
     </a>
-    <a href="https://github.com/brendon1555/authjs-mongoose-adapter/stargazers">
+    <a href="https://github.com/brendon1555/authjs-mongoose-adapter/stargazers" target="_blank">
       <img src="https://img.shields.io/github/stars/brendon1555/authjs-mongoose-adapter?style=flat-square" alt="GitHub Stars" />
     </a>
   </p>
@@ -25,7 +25,7 @@
 
 ---
 
-# Getting Started
+## Getting Started
 
 1. Install `next-auth` (or `@auth/express`, `@auth/sveltekit`, etc), `mongoose` and `@brendon1555/authjs-mongoose-adapter`:
 
