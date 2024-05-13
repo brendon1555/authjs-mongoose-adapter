@@ -1,0 +1,53 @@
+{
+  "name": "@brendon1555/authjs-mongoose-adapter",
+  "version": "1.0.0",
+  "description": "Mongoose adapter for Auth.js",
+  "homepage": "https://github.com/brendon1555/authjs-mongoose-adapter",
+  "repository": "https://github.com/brendon1555/authjs-mongoose-adapter",
+  "bugs": {
+    "url": "https://github.com/brendon1555/authjs-mongoose-adapter/issues"
+  },
+  "author": "Brendon Lees <brendon1555@gmail.com>",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "license": "ISC",
+  "keywords": [
+    "next-auth",
+    "auth.js",
+    "next.js",
+    "oauth",
+    "mongoose",
+    "adapter"
+  ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "./test/test.sh",
+    "test:win": "test\\test.cmd",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@auth/core": "^0.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "@vitest/coverage-v8": "^1.6.0",
+    "mongoose": "^8.3.4",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  },
+  "peerDependencies": {
+    "mongoose": "^8"
+  }
+}
