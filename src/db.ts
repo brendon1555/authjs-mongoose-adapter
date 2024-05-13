@@ -1,4 +1,4 @@
-import type { ConnectOptions, Connection } from "mongoose"
+import type { Connection } from "mongoose"
 import { createConnection } from "mongoose"
 
 let conn: Connection
