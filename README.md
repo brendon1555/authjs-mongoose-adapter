@@ -27,13 +27,12 @@
 
 > [!WARNING]
 >
-> This adapter cannot support Next.js with `next-auth` until Mongoose supports the Next.js Edge Runtime. Or, Next.js adds Node.js support to middlewares. 
+> This adapter cannot support Next.js middleware with `next-auth` until Mongoose supports the Next.js Edge Runtime. _Or_, Next.js adds Node.js `net` API support to middlewares. You _CAN_ still generally use it with Next.js however.  
 > See: [Mongoose docs](https://mongoosejs.com/docs/nextjs.html#:~:text=Mongoose%20does%20not%20currently%20support%20Next.js%20Edge%20Runtime.)
-
 
 ## Getting Started
 
-1. Install Auth.js (`@auth/express`, `@auth/sveltekit`, etc.), `mongoose` and `@brendon1555/authjs-mongoose-adapter`:
+1. Install Auth.js (`@auth/express`, `@auth/sveltekit`, `next-auth`, etc.), `mongoose` and `@brendon1555/authjs-mongoose-adapter`:
 
 ```bash
 npm install @brendon1555/authjs-mongoose-adapter mongoose @auth/express
@@ -76,7 +75,7 @@ MONGODB_URI=mongodb://localhost:27017/my-database
    });
    ```
 
-   3. ~~Next.js~~ (Not officially supported. If you get it working, please let me know!)
+   3. Next.js (Middleware not supported yet)
 
    ```js
     import NextAuth from "next-auth"
