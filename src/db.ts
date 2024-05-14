@@ -1,13 +1,13 @@
-import type { Connection } from "mongoose"
-import { createConnection } from "mongoose"
+import type { Connection } from "mongoose";
+import { createConnection } from "mongoose";
 
-let conn: Connection
+let conn: Connection;
 
 export default function dbConnect(uri: string) {
   if (conn) {
-    return conn
+    return conn;
   }
 
-  conn = createConnection(uri)
-  return conn
+  conn = createConnection(uri);
+  return conn;
 }

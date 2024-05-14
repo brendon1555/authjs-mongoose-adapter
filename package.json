@@ -36,7 +36,8 @@
     "test": "./test/test.sh",
     "test:win": "test\\test.cmd",
     "test:ci": "vitest",
-    "build": "tsc"
+    "build": "tsc",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@auth/core": "^0.31.0"
@@ -45,6 +46,7 @@
     "@types/node": "^20.12.11",
     "@vitest/coverage-v8": "^1.6.0",
     "mongoose": "^8.3.4",
+    "prettier": "^3.2.5",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
   },

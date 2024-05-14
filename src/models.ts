@@ -25,8 +25,8 @@ interface Account {
   token_type: string | null;
   scope: string;
   id_token: string;
-  oauth_token_secret: string
-  oauth_token: string
+  oauth_token_secret: string;
+  oauth_token: string;
   session_state: string;
 }
 

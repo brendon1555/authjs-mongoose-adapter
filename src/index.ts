@@ -128,9 +128,8 @@ export function MongooseAdapter(uri: string): Adapter {
       return from<VerificationToken>(verificationToken);
     },
     async useVerificationToken(identifier_token) {
-      const verificationToken = await VerificationTokenModel.findOneAndDelete(
-        identifier_token
-      ).lean();
+      const verificationToken =
+        await VerificationTokenModel.findOneAndDelete(identifier_token).lean();
       if (!verificationToken) return null;
       const { _id, __v, ...rest } = verificationToken;
       return rest;

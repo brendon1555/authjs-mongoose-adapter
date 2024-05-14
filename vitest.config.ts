@@ -1,4 +1,4 @@
-import { defineConfig } from "vitest/config"
+import { defineConfig } from "vitest/config";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,4 +12,4 @@ export default defineConfig({
       reporter: ["text", "json", "html"],
     },
   },
-})
+});

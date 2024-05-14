@@ -48,9 +48,8 @@ runBasicTests({
       return format.from(session);
     },
     async verificationToken(identifier_token) {
-      const token = await VerificationTokenModel.findOne(
-        identifier_token
-      ).lean();
+      const token =
+        await VerificationTokenModel.findOne(identifier_token).lean();
       if (!token) return null;
       const { _id, __v, ...rest } = token;
       return rest;
