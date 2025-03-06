@@ -5,13 +5,13 @@ import type {
   AdapterSession,
   VerificationToken,
 } from "@auth/core/adapters";
-import dbConnect from "./db";
+import dbConnect from "./db.js";
 import {
   accountSchema,
   sessionSchema,
   userSchema,
   verificationTokenSchema,
-} from "./models";
+} from "./models.js";
 
 export const format = {
   /** Takes a MongoDB object and returns a plain old JavaScript object */
